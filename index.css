@@ -1,41 +1,50 @@
-.clock{
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
 
-}
-.clock div{
-    margin: 5px;
+
+/*  */
+
+
+
+
+
+
+#clockContainer{  
     position: relative;
-
-}
-.clock span{
-    width: 100px;
-    height: 80px;
-    background-color: steelblue;
-    opacity: .8;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    /* text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.3); */
-    text-shadow: 2px 2px 4px black;
-}
-.clock .text{
-    height: 30px;
-    font-size: 10px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    background: darkblue;
-    opacity: .8;
+    margin: 55px;
+    height: 200px;
+    width: 200px; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
 }
 
-.clock #ampm{
-    bottom: 0;
+#hour, #minute, #second{
     position: absolute;
-    width: 60px;
-    height: 30px;
-    font-size: 20px;
-    background-color: green;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 36%;
+    top: 14%;
+    left: 48.85%;
+    opacity: 0.8;  
+    background-color: red;
+}
+#minute{
+    width: 1.6%;
+    height: 44%;
+    top: 6%;
+    left: 48.9%;
+    opacity: 0.8;  
+    background-color: #6056c9;
+}
+#second{
+    width: 1%;
+    height: 42%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    background-color: red;
+    
+    
 }
