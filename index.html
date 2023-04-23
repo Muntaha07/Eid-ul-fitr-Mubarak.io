@@ -5,7 +5,11 @@
 	<title>Eid Mubarak</title>
 	<link rel="stylesheet" href="./index.css">
 	<link rel="stylesheet" href="./clock.css">
+	<link rel="stylesheet" href="./colander.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"rel="stylesheet" />
 	<style>
+
 		
 		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
@@ -87,7 +91,7 @@
 			transform: translateZ(25px);
 			animation: pulse 2s infinite ease-in-out;
 			/* text-shadow: 3px 5px darkolivegreen; */
-			margin: 117px;
+			margin-top: 240px;
 
 		}
 
@@ -131,12 +135,12 @@
 		}
 
 
-		.container {
+		.container1{
 			max-width: 1200px;
 			/* margin: 0 auto; */
 			padding: 20px;
 			height: 15px;
-			margin-top: -65px;
+			margin-top: -34px;
 		}
 
 		h1 {
@@ -155,7 +159,7 @@
 			color: #f2f2f2;
 			padding: 20px;
 			position: absolute;
-			bottom: -200px;
+			bottom: -700px;
 			width: 100%;
 		}
 
@@ -180,10 +184,17 @@
         <div id="minute"></div>
         <div id="second"></div>
     </div>	
-	  
-	  
 
+	<div class="container">
+		<div class="month"></div>
+		<div class="day"></div>
+		<div class="date"></div>
+		<div class="year"></div>
+	  </div>
+	
+	
 	<h1>Eid Mubarak!</h1>
+	
 	<p>May Allah's blessings be with you today, tomorrow and always <br>
 		Eid ul-Fitr Mubarak to you too! May this Eid bring joy, peace,<br> and blessings to you and your loved ones.
 	</p>
@@ -203,7 +214,7 @@
 	
 	
 	<footer>
-		<div class="container">
+		<div class="container1">
 			<h4>&copy; 2023  <em> Muntaha Majeed.</em> All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of
 				Use</a></h4>
 			</div>
@@ -221,6 +232,7 @@
 		}
 		</script>
 <script src="./index.js"></script>
+<script src="./col.js"></script>
 </body>
 
 </html>

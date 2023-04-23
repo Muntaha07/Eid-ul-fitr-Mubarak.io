@@ -1,0 +1,45 @@
+.container {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 12rem;
+  /* margin: 0 auto; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  right: 10px;
+  height: 14rem;
+  background-color: cyan;
+  top: 29px;
+  
+}
+
+.container .month {
+  background-color: orangered;
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.container .day {
+  opacity: 7.3;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #276413;
+}
+
+.container .date {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  color: coral;
+}
+
+.container .year {
+  font-size: 1.2rem;
+  opacity: 1.3;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: brown;
+}
